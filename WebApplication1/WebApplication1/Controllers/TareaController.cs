@@ -33,13 +33,28 @@ namespace WebApplication1.Controllers
             return Ok(_tareaList.ToList());
         }
 
+
         [HttpGet]
         [Route("{id}")] //obtengo parámetro desde la url
         public ActionResult<Tarea> GetById(int id)
         {
-            _logger.LogInformation($"Retorno tarea en posicion {id}"); // formato de interpolación de cadenas
-            return Ok(_tareaList[id]);
+
+            _logger.LogInformation($"Buscando tarea con id {id}");
+
+            // Buscar tarea por el id
+            var tarea = _tareaList.FirstOrDefault(t => t.Id == id);
+
+            if (tarea == null)
+            {
+                // Si la tarea no existe, devolvemos un NotFound
+                _logger.LogWarning($"Tarea con id {id} no encontrada");
+                return NotFound($"Tarea con id {id} no encontrada");
+            }
+
+            // Si la tarea se encuentra, la devolvemos
+            return Ok(tarea);
         }
+
 
         [HttpPost] //ejemplo de post
         public ActionResult Nuevo([FromBody] Tarea tarea) //notese el atributo FromBody

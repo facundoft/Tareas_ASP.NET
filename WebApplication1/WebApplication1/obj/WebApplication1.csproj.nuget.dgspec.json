@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 2 (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 02_a (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 2 (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 02_a (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 2 (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 02_a (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 2 (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 02_a (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\facun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 2 (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\facun\\Desktop\\Clases\\SEMESTRES\\Sexto Semestre\\.NET\\TAREA 02_a (ASP.NET Core MVC Web API)\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
